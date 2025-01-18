@@ -1,0 +1,43 @@
+#button {
+    padding: 5px;
+    border-radius: 10px;
+background-color: indianred;
+
+
+}
+
+&:hover {
+    background-color: rgb(66, 58, 58);
+    color: rgba(105, 105, 105, 0.596);
+    color: aliceblue;
+}
+
+table,
+th,
+tr,
+td {
+    text-align: center;
+    height: 60px;
+    width: 350px;
+}
+
+#submit {
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(122, 118, 118);
+    border-radius: 10px;
+
+}
+
+input {
+
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: 1px solid indianred;
+color: antiquewhite;
+background: #000;
+}
